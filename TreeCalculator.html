@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width"/>
+
+	<!-- Javascripts -->
+	<script src="src/TreeCalculator.js"></script>
+	<script src="src/papaparse.js"></script>
+	<script src="src/DBSCAN.js"></script>
+	
+	
+	
+</head>
+
+<body>
+	<p>
+		Usage: Click choose file and select a csv file where the first 3 columns correspond to x,y,z-index
+	</P>
+	<p>
+		The program will output the calculated height, branch diameter and trunk diameter 
+	</p>
+	<p>
+		Open console to view the cluster object
+	</p>
+	<div class="custom-file">
+		<input type="file" accept=".txt,.csv" id="imagefile" onchange="readFile(this)"></input>
+		<div></div>
+	</div>
+
+	
+</body>
+
+<footer>
+
+</footer>
+
+</html>
